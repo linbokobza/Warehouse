@@ -1,0 +1,581 @@
+C:\Users\elada\source\repos\WareHouse22\bin\WareHouse22.dll.config
+C:\Users\elada\source\repos\WareHouse22\bin\WareHouse22.dll
+C:\Users\elada\source\repos\WareHouse22\bin\WareHouse22.pdb
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\csc.exe
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\csc.exe.config
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\csc.rsp
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\csi.exe
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\csi.exe.config
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\csi.rsp
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.AppContext.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Console.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.IO.Compression.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Net.Http.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Net.Sockets.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.ValueTuple.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Xml.XPath.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\vbc.exe
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\vbc.exe.config
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\vbc.rsp
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\VBCSCompiler.exe
+C:\Users\elada\source\repos\WareHouse22\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\elada\source\repos\WareHouse22\bin\Antlr3.Runtime.dll
+C:\Users\elada\source\repos\WareHouse22\bin\EntityFramework.dll
+C:\Users\elada\source\repos\WareHouse22\bin\EntityFramework.SqlServer.dll
+C:\Users\elada\source\repos\WareHouse22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elada\source\repos\WareHouse22\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\elada\source\repos\WareHouse22\bin\Newtonsoft.Json.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Helpers.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Mvc.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Optimization.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Razor.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.WebPages.Deployment.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.WebPages.dll
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.WebPages.Razor.dll
+C:\Users\elada\source\repos\WareHouse22\bin\WebGrease.dll
+C:\Users\elada\source\repos\WareHouse22\bin\EntityFramework.xml
+C:\Users\elada\source\repos\WareHouse22\bin\EntityFramework.SqlServer.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Helpers.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Mvc.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Optimization.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.Razor.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.WebPages.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.WebPages.Deployment.xml
+C:\Users\elada\source\repos\WareHouse22\bin\System.Web.WebPages.Razor.xml
+C:\Users\elada\source\repos\WareHouse22\bin\Newtonsoft.Json.xml
+C:\Users\elada\source\repos\WareHouse22\bin\Antlr3.Runtime.pdb
+C:\Users\elada\source\repos\WareHouse22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\elada\source\repos\WareHouse22\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\elada\source\repos\WareHouse22\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\elada\source\repos\WareHouse22\obj\Debug\WareHouse22.csproj.CopyComplete
+C:\Users\elada\source\repos\WareHouse22\obj\Debug\WareHouse22.dll
+C:\Users\elada\source\repos\WareHouse22\obj\Debug\WareHouse22.pdb
+C:\Users\elada\Desktop\WareHouse22\bin\WareHouse22.dll.config
+C:\Users\elada\Desktop\WareHouse22\bin\WareHouse22.dll
+C:\Users\elada\Desktop\WareHouse22\bin\WareHouse22.pdb
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\csc.exe
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\csc.exe.config
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\csc.rsp
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\csi.exe
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\csi.exe.config
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\csi.rsp
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.AppContext.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Console.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.IO.Compression.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Net.Http.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Net.Sockets.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.ValueTuple.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Xml.XPath.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\vbc.exe
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\vbc.exe.config
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\vbc.rsp
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\VBCSCompiler.exe
+C:\Users\elada\Desktop\WareHouse22\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\elada\Desktop\WareHouse22\bin\Antlr3.Runtime.dll
+C:\Users\elada\Desktop\WareHouse22\bin\EntityFramework.dll
+C:\Users\elada\Desktop\WareHouse22\bin\EntityFramework.SqlServer.dll
+C:\Users\elada\Desktop\WareHouse22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elada\Desktop\WareHouse22\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\elada\Desktop\WareHouse22\bin\Newtonsoft.Json.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Helpers.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Mvc.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Optimization.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Razor.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.WebPages.Deployment.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.WebPages.dll
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.WebPages.Razor.dll
+C:\Users\elada\Desktop\WareHouse22\bin\WebGrease.dll
+C:\Users\elada\Desktop\WareHouse22\bin\EntityFramework.xml
+C:\Users\elada\Desktop\WareHouse22\bin\EntityFramework.SqlServer.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Helpers.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Mvc.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Optimization.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.Razor.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.WebPages.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.WebPages.Deployment.xml
+C:\Users\elada\Desktop\WareHouse22\bin\System.Web.WebPages.Razor.xml
+C:\Users\elada\Desktop\WareHouse22\bin\Newtonsoft.Json.xml
+C:\Users\elada\Desktop\WareHouse22\bin\Antlr3.Runtime.pdb
+C:\Users\elada\Desktop\WareHouse22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\elada\Desktop\WareHouse22\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\elada\Desktop\WareHouse22\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\elada\Desktop\WareHouse22\obj\Debug\WareHouse22.csproj.CopyComplete
+C:\Users\elada\Desktop\WareHouse22\obj\Debug\WareHouse22.dll
+C:\Users\elada\Desktop\WareHouse22\obj\Debug\WareHouse22.pdb
+C:\Users\shrik\OneDrive\Desktop\w\bin\WareHouse22.dll.config
+C:\Users\shrik\OneDrive\Desktop\w\bin\WareHouse22.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\WareHouse22.pdb
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\csc.exe
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\csc.exe.config
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\csc.rsp
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\csi.exe
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\csi.exe.config
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\csi.rsp
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.AppContext.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Console.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.IO.Compression.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Net.Http.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.ValueTuple.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\vbc.exe
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\vbc.exe.config
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\vbc.rsp
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\VBCSCompiler.exe
+C:\Users\shrik\OneDrive\Desktop\w\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shrik\OneDrive\Desktop\w\bin\Antlr3.Runtime.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\EntityFramework.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\EntityFramework.SqlServer.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\Newtonsoft.Json.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Helpers.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Mvc.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Optimization.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Razor.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.WebPages.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.WebPages.Razor.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\WebGrease.dll
+C:\Users\shrik\OneDrive\Desktop\w\bin\EntityFramework.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\EntityFramework.SqlServer.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Helpers.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Mvc.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Optimization.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.Razor.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.WebPages.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\System.Web.WebPages.Razor.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\Newtonsoft.Json.xml
+C:\Users\shrik\OneDrive\Desktop\w\bin\Antlr3.Runtime.pdb
+C:\Users\shrik\OneDrive\Desktop\w\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shrik\OneDrive\Desktop\w\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\shrik\OneDrive\Desktop\w\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\shrik\OneDrive\Desktop\w\obj\Debug\WareHouse22.csproj.CopyComplete
+C:\Users\shrik\OneDrive\Desktop\w\obj\Debug\WareHouse22.dll
+C:\Users\shrik\OneDrive\Desktop\w\obj\Debug\WareHouse22.pdb
+C:\Users\linbo\Desktop\w\bin\WareHouse22.dll.config
+C:\Users\linbo\Desktop\w\bin\WareHouse22.dll
+C:\Users\linbo\Desktop\w\bin\WareHouse22.pdb
+C:\Users\linbo\Desktop\w\bin\roslyn\csc.exe
+C:\Users\linbo\Desktop\w\bin\roslyn\csc.exe.config
+C:\Users\linbo\Desktop\w\bin\roslyn\csc.rsp
+C:\Users\linbo\Desktop\w\bin\roslyn\csi.exe
+C:\Users\linbo\Desktop\w\bin\roslyn\csi.exe.config
+C:\Users\linbo\Desktop\w\bin\roslyn\csi.rsp
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\linbo\Desktop\w\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.AppContext.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Console.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.IO.Compression.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Net.Http.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Net.Sockets.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.ValueTuple.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Xml.XPath.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\linbo\Desktop\w\bin\roslyn\vbc.exe
+C:\Users\linbo\Desktop\w\bin\roslyn\vbc.exe.config
+C:\Users\linbo\Desktop\w\bin\roslyn\vbc.rsp
+C:\Users\linbo\Desktop\w\bin\roslyn\VBCSCompiler.exe
+C:\Users\linbo\Desktop\w\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\linbo\Desktop\w\bin\Antlr3.Runtime.dll
+C:\Users\linbo\Desktop\w\bin\EntityFramework.dll
+C:\Users\linbo\Desktop\w\bin\EntityFramework.SqlServer.dll
+C:\Users\linbo\Desktop\w\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\linbo\Desktop\w\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\linbo\Desktop\w\bin\Newtonsoft.Json.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.Helpers.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.Mvc.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.Optimization.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.Razor.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.WebPages.Deployment.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.WebPages.dll
+C:\Users\linbo\Desktop\w\bin\System.Web.WebPages.Razor.dll
+C:\Users\linbo\Desktop\w\bin\WebGrease.dll
+C:\Users\linbo\Desktop\w\bin\EntityFramework.xml
+C:\Users\linbo\Desktop\w\bin\EntityFramework.SqlServer.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.Helpers.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.Mvc.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.Optimization.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.Razor.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.WebPages.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.WebPages.Deployment.xml
+C:\Users\linbo\Desktop\w\bin\System.Web.WebPages.Razor.xml
+C:\Users\linbo\Desktop\w\bin\Newtonsoft.Json.xml
+C:\Users\linbo\Desktop\w\bin\Antlr3.Runtime.pdb
+C:\Users\linbo\Desktop\w\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\linbo\Desktop\w\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\linbo\Desktop\w\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\linbo\Desktop\w\obj\Debug\WareHouse22.csproj.CopyComplete
+C:\Users\linbo\Desktop\w\obj\Debug\WareHouse22.dll
+C:\Users\linbo\Desktop\w\obj\Debug\WareHouse22.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\WareHouse22.dll.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\WareHouse22.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\WareHouse22.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\csc.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\csc.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\csc.rsp
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\csi.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\csi.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\csi.rsp
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.AppContext.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Console.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.IO.Compression.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Net.Http.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.ValueTuple.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\vbc.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\vbc.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\vbc.rsp
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\VBCSCompiler.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Antlr3.Runtime.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\EntityFramework.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\EntityFramework.SqlServer.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Newtonsoft.Json.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Helpers.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Mvc.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Optimization.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Razor.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.WebPages.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.WebPages.Razor.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\WebGrease.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\EntityFramework.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\EntityFramework.SqlServer.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Helpers.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Mvc.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Optimization.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.Razor.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.WebPages.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\System.Web.WebPages.Razor.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Newtonsoft.Json.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Antlr3.Runtime.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\obj\Debug\WareHouse22.csproj.CopyComplete
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\obj\Debug\WareHouse22.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\project\obj\Debug\WareHouse22.pdb
+C:\Users\shrik\OneDrive\Desktop\project\bin\WareHouse22.dll.config
+C:\Users\shrik\OneDrive\Desktop\project\bin\WareHouse22.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\WareHouse22.pdb
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\csc.exe
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\csc.exe.config
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\csc.rsp
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\csi.exe
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\csi.exe.config
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\csi.rsp
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.AppContext.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Console.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.IO.Compression.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Net.Http.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.ValueTuple.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\vbc.exe
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\vbc.exe.config
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\vbc.rsp
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\VBCSCompiler.exe
+C:\Users\shrik\OneDrive\Desktop\project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shrik\OneDrive\Desktop\project\bin\Antlr3.Runtime.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\EntityFramework.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\EntityFramework.SqlServer.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\Newtonsoft.Json.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Helpers.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Mvc.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Optimization.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Razor.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.WebPages.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.WebPages.Razor.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\WebGrease.dll
+C:\Users\shrik\OneDrive\Desktop\project\bin\EntityFramework.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\EntityFramework.SqlServer.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Helpers.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Mvc.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Optimization.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.Razor.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.WebPages.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\System.Web.WebPages.Razor.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\Newtonsoft.Json.xml
+C:\Users\shrik\OneDrive\Desktop\project\bin\Antlr3.Runtime.pdb
+C:\Users\shrik\OneDrive\Desktop\project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shrik\OneDrive\Desktop\project\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\shrik\OneDrive\Desktop\project\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\shrik\OneDrive\Desktop\project\obj\Debug\WareHouse22.csproj.CopyComplete
+C:\Users\shrik\OneDrive\Desktop\project\obj\Debug\WareHouse22.dll
+C:\Users\shrik\OneDrive\Desktop\project\obj\Debug\WareHouse22.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\obj\Debug\WareHouse22.csproj.AssemblyReference.cache
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\obj\Debug\WareHouse22.csproj.CoreCompileInputs.cache
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\obj\Debug\WareHouse22.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\obj\Debug\WareHouse22.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\WareHouse22.dll.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\WareHouse22.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\WareHouse22.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\csc.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\csc.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\csc.rsp
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\csi.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\csi.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\csi.rsp
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.AppContext.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Console.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.IO.Compression.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Net.Http.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Net.Sockets.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.ValueTuple.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Xml.XPath.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\vbc.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\vbc.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\vbc.rsp
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\VBCSCompiler.exe
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Antlr3.Runtime.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\EntityFramework.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\EntityFramework.SqlServer.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Newtonsoft.Json.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Helpers.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Mvc.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Optimization.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Razor.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.WebPages.Deployment.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.WebPages.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.WebPages.Razor.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\WebGrease.dll
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\EntityFramework.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\EntityFramework.SqlServer.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Helpers.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Mvc.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Optimization.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.Razor.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.WebPages.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.WebPages.Deployment.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\System.Web.WebPages.Razor.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Newtonsoft.Json.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Antlr3.Runtime.pdb
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\linbo\Desktop\ההנדסת תוכנה\שנה ג\סמס ב\הדס\New folder\Warehouse22\obj\Debug\WareHouse22.csproj.CopyComplete

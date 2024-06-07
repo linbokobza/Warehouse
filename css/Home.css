@@ -1,0 +1,9 @@
+﻿@media screen and (max-width: 768px) {
+    .center {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

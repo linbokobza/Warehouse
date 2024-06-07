@@ -1,0 +1,472 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<div class="container-xl px-4 mt-4">
+    <!-- Account page navigation-->
+    <nav class="nav nav-borders">
+        <a class="navbar-brand" href="/Users/Home">
+            <img src="~/media/warehouse.png" style="width: 30px; margin-left:10px" />
+            Warehouse
+        </a>
+        <a id="NavProfile" class="nav-link active ms-0 btn">Profile</a>
+        <a id="NavCurrent" class="nav-link btn">Current loans</a>
+        <a id="NavHistory" class="nav-link btn">History loans</a>
+
+        <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+        <script src="~/Scripts/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+
+        <link href="~/css/UserProfile.css" rel="stylesheet" />
+    </nav>
+    <div>
+        <div id="ProfileDiv">
+            <hr class="mt-0 mb-4">
+            <div class="row">
+                <div class="col-xl-6">
+                    <!-- Profile picture card-->
+                    <div class="card mb-5 mb-xl-5" style="left:50%;">
+                        <div class="card-header">Account Details</div>
+                        <div class="card-body text-center">
+                            <!-- Profile picture image-->
+                            <img class="img-account-profile rounded-circle mb-2" src="~/media/profilePic.png" />
+                            <p style="font-size:x-large; font-weight:bold;">Hi <span id="ShowName"></span>!</p>
+                            <form>
+                                <div class="mb-4">
+                                    <label class="small mb-2" for="inputUsername" style="font-size:100%; font-weight:bold">Username (Email): </label><br />
+                                    <label class="small mb-1" for="inputUsername" style="font-size:90%"><span id="ShowEmail"></span></label>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="small mb-2" for="inputUsername" style="font-size: 100%; font-weight: bold">First name: </label><br />
+                                    <label class="small mb-1" for="inputUsername" style="font-size:90%"><span id="ShowFirstName"></span></label>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="small mb-2" for="inputUsername" style="font-size: 100%; font-weight: bold">Last name: </label><br />
+                                    <label class="small mb-1" for="inputUsername" style="font-size:90%"><span id="ShowLastName"></span></label>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="small mb-2" for="inputUsername" style="font-size: 100%; font-weight: bold">Role: </label><br />
+                                    <label class="small mb-1" for="inputUsername" style="font-size:90%"><span id="ShowRole"></span></label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="HistoryDiv">
+            <div class="mt-2 mb-4">
+                <div class="card mb-3">
+                    <!--Category Table-->
+                    <div id="ShowHistory" class="center">
+                        <form action="ShowHistory" method="post">
+                            <table class="sortable table table-hover " id="table" name="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Code</th>
+                                        <th scope="col">Item name</th>
+                                        <th scope="col">Start date</th>
+                                        <th scope="col">Final date</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbl_body">
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="CurrentDiv">
+            <div class="mt-2 mb-4">
+                <div class="card mb-3">
+                    <!--Category Table-->
+                    <div id="ShowCurrent" class="center">
+                        <form action="ShowCurrent" method="post">
+                            <table class="sortable table table-hover " id="table" name="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Code</th>
+                                        <th scope="col">Item name</th>
+                                        <th scope="col">Start date</th>
+                                        <th scope="col">Final date</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbl_body1">
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                    <!--Loan Item Modal-->
+                    <div class="modal fade" id="newLoanItemModal" tabindex="-1" role="dialog" aria-labelledby="newLoanItemModalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Change date</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <!--Modal content-->
+                                    <div class="box">
+                                        <div class="mb-3">
+                                            <label class="form-label">Start loan date</label>
+                                            <div class="input-group input-group-merge">
+                                                <input type="date" class="form-control" id="newStartLoanDate">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">End loan date</label>
+                                            <div class="input-group input-group-merge">
+                                                <input type="date" class="form-control" id="newEndLoanDate">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" onclick="ChangeLoanItem()" data-dismiss="modal" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                 <!--Report Malfunction Modal-->
+                    <div class="modal fade" id="ItemMalfunctionModal" tabindex="-1" role="dialog" aria-labelledby="ItemMalfunctionModalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Report malfunction</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!--Modal content-->
+                                    <div class="mb-3">
+                                        <label class="form-label">Malfunction Description:</label>
+                                        <div class="input-group input-group-merge">
+                                            <input type="text" class="form-control" id="MalfunctionDescription" maxlength="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" onclick="ReportMalfunction()" data-dismiss="modal" class="btn btn-primary">Report</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script>
+            var profile = document.getElementById("NavProfile")
+            var current = document.getElementById("NavCurrent")
+            var history = document.getElementById("NavHistory")
+
+            document.getElementById('ProfileDiv').style.display = "block"
+            document.getElementById('HistoryDiv').style.display = "none"
+            document.getElementById('CurrentDiv').style.display = "none"
+
+            const userEmail = localStorage.getItem('email');
+            const FirstName = localStorage.getItem('FirstName');
+             var role="";
+
+            //Profile details
+            document.getElementById('ShowName').innerHTML = FirstName;
+
+            $.ajax({
+                type: "POST",
+                url: "userProfile",
+                data: {
+                    Email: userEmail
+                },
+                success: function (r) {
+                    if (r.status === "false") {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Cannot import user deails',
+                        })
+                    }
+                    else {
+                        document.getElementById('ShowEmail').innerHTML = userEmail;
+                        document.getElementById('ShowFirstName').innerHTML = FirstName;
+                        document.getElementById('ShowLastName').innerHTML = r.lastName;
+                        if (r.role === "S") { document.getElementById('ShowRole').innerHTML = "Student"; }
+                        else if (r.role === "L") { document.getElementById('ShowRole').innerHTML = "Lecturer"; }
+                        else { document.getElementById('ShowRole').innerHTML = "Admin"; }
+                        role = r.role;
+                    }
+                }
+            });
+            ////
+
+            document.getElementById("NavProfile").addEventListener("click", function () {
+
+                document.getElementById('ProfileDiv').style.display = "block"
+                document.getElementById('HistoryDiv').style.display = "none"
+                document.getElementById('CurrentDiv').style.display = "none"
+
+                profile.className = "nav-link active ms-0 btn"
+                current.className = "nav-link btn"
+                document.getElementById("NavHistory").className = "nav-link btn"
+            });
+
+
+            function showCurrentDiv() {
+                document.getElementById('ProfileDiv').style.display = "none"
+                document.getElementById('HistoryDiv').style.display = "none"
+                document.getElementById('CurrentDiv').style.display = "block"
+
+                profile.className = "nav-link btn"
+                current.className = "nav-link active ms-0 btn"
+                document.getElementById("NavHistory").className = "nav-link btn"
+
+                $("#tbl_body1").empty();
+                $.ajax({
+                    type: "POST",
+                    url: "ShowCurrent",
+                    data: {
+                        userEmail: userEmail
+                    },
+
+                    success: (res) => {
+                        var i = 1
+                        res.LoanList.map(e => {
+                            var Startdate = moment(e.StartDate).toDate();
+                            var Finaldate = moment(e.FinalDate).toDate();
+
+                            var StartformattedDate = Startdate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+                            var FirstformattedDate = Finaldate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+
+                            const temp = ` <tr scope="row">
+
+                                                            <td>${i}<td>
+                                                            <td>${e.UserEmail}</td>
+                                                            <td>${e.ECode}</td>
+                                                            <td>${e.ItemName}</td>
+                                                            <td>${StartformattedDate}</td>
+                                                            <td>${FirstformattedDate}</td>
+                                                            <td><a id="extend" data-toggle="modal"  data-target="#newLoanItemModal" onClick="change('${StartformattedDate}','${FirstformattedDate}','${e.ECode}','${e.UserEmail}')" class="btn btn-info" style="font-size:15px; color: white " >
+                                                                Change loan
+                                                            </a>
+                                                            </td>  
+                                                            <td><a id="cancel"  onClick="cancel('${StartformattedDate}','${FirstformattedDate}','${e.ECode}','${e.UserEmail}')" class="btn btn-danger" style="font-size:15px; color: white" >
+                                                                Cancel loan
+                                                            </a>
+                                                             <td><a id="Return${i}" onClick="Returned('${StartformattedDate}','${FirstformattedDate}','${e.ECode}','${e.UserEmail}')" class="btn btn-success" style="font-size:15px; color: white" >
+                                                                Return item
+                                                            </a>
+                                                        </td>
+                                                        </tr>`
+
+                            $("#tbl_body1").append(temp);
+                            if (role === "A") { document.getElementById('Return'+i).hidden = false; }
+                            else { document.getElementById('Return'+i).hidden = true; }
+                            i++;
+                        })
+                    }
+                })
+            }
+
+            document.getElementById("NavCurrent").addEventListener("click", showCurrentDiv);
+
+            document.getElementById("NavHistory").addEventListener("click", function () {
+                document.getElementById('ProfileDiv').style.display = "none"
+                document.getElementById('HistoryDiv').style.display = "block"
+                document.getElementById('CurrentDiv').style.display = "none"
+
+                document.getElementById("NavHistory").className = "nav-link active ms-0 btn"
+                profile.className = "nav-link btn"
+                current.className = "nav-link btn"
+
+
+                $("#tbl_body").empty();
+
+                $.ajax({
+                    type: "POST",
+                    url: "ShowHistory",
+                    data: {
+                        userEmail: userEmail
+                    },
+
+                    success: (res) => {
+                        var i = 1
+
+                        res.LoanList.map(e => {
+                            var Startdate = moment(e.StartDate).toDate();
+                            var Finaldate = moment(e.StartDate).toDate();
+
+                            var StartformattedDate = Startdate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+                            var FirstformattedDate = Finaldate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+
+                            const temp = ` <tr scope="row">
+
+                                                            <td>${i}<td>
+                                                            <td>${e.UserEmail}</td>
+                                                            <td>${e.ECode}</td>
+                                                            <td>${e.ItemName}</td>
+                                                            <td>${StartformattedDate}</td>
+                                                            <td>${FirstformattedDate}</td>
+                                                            </td>
+                                                        </tr>`
+
+                            $("#tbl_body").append(temp);
+                            i++
+                        })
+                    }
+                })
+
+            });
+
+            var ModalStartDate
+            var ModalFinalDate
+            var ModalCode
+            var Umail
+            function change(startDate, finalDate, code,mail) {
+                ModalStartDate = startDate
+                ModalFinalDate = finalDate
+                ModalCode = code
+                Umail=mail
+            }
+
+
+            function ChangeLoanItem() {
+                var StartDate = document.getElementById("newStartLoanDate").value;
+                var ReturnDate = document.getElementById("newEndLoanDate").value;
+                if (!StartDate || StartDate == "" || !ReturnDate || ReturnDate == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Please fill all fields',
+                    })
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "ChangeLoanItem",
+                    data: {
+                        Code: ModalCode,
+                        Email: Umail,
+                        StartDate: ModalStartDate,
+                        ReturnDate: ModalFinalDate,
+                        newStartDate: StartDate,
+                        newReturnDate: ReturnDate
+                    },
+                    success: function (r) {
+                        if (r.status === "false") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Dates not available',
+                            })
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Change loan complete successfully',
+                            })
+                            current.click();
+
+                        }
+                    }
+                });
+            }
+
+            function cancel(startDate, finalDate, code,mail) {
+                $.ajax({
+                    type: "POST",
+                    url: "CancelLoan",
+                    data: {
+                        userEmail: mail,
+                        code: code,
+                        startDate: startDate,
+                        finalDate: finalDate
+
+                    },
+
+                    success: function (r) {
+                        if (r.status === "false") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Something get wrong',
+                            })
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Cancel loan complete successfully',
+                            })
+                            document.getElementById("NavCurrent").click();
+
+                        }
+                    }
+                });
+            }
+             function Returned(startDate, finalDate, code,mail) {
+                $.ajax({
+                    type: "POST",
+                    url: "ReturnItem",
+                    data: {
+                        userEmail: mail,
+                        code: code,
+                        startDate: startDate,
+                        finalDate: finalDate
+
+                    },
+
+                    success: function (r) {
+                        if (r.status === "false") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Cannot return future loan, you can only cancel',
+                            })
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Item Returned successfully',
+                            })
+                        }
+                    }
+
+                });
+            }
+             function Malfunction(code) {
+                ModalCode = code;
+            }
+            function ReportMalfunction() {
+                var body = document.getElementById("MalfunctionDescription").value
+                $.ajax({
+                    type: "POST",
+                    url: "AddNotification",
+                    data: {
+                        reason: "Malfunction",
+                        mail: userEmail,
+                        code: ModalCode,
+                        body: body                      
+                    }
+                });
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Report complete successfully',
+                })
+            }
+        </script>
+    </div>
+    </div>
+

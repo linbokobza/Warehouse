@@ -1,0 +1,951 @@
+
+@{
+    Layout = null;
+}
+
+
+
+
+@model WareHouse22.ViewModel.EquipmentViewModel
+@using WareHouse22.Models
+
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home</title>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <script src="~/Scripts/projectScripts/Home.js"></script>
+    <!-- Add Item Modal -->
+    <div class="modal fade" id="addItemModal" tabindex="-1" role="dialog" aria-labelledby="addItemModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add item</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!--Modal content-->
+                    <div class="box">
+                        <div class="mb-3">
+                            <label class="form-label">Item Code</label>
+                            <div class="input-group input-group-merge">
+                                <input type="text" class="form-control" id="Code" placeholder="ZR772B1" aria-label="Mark Williams" aria-describedby="Code">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <div class="input-group input-group-merge">
+                                <input type="text" class="form-control" id="Name" placeholder="Micro HDMI" aria-label="Mark Williams" aria-describedby="Code">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Max loan time (days)</label>
+                            <div class="input-group input-group-merge">
+                                <input type="number" class="form-control" id="MaxLoanTime" placeholder="14" aria-label="Mark Williams" aria-describedby="Code">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">State</label>
+                            <select id="State" class="form-select" aria-label="Default select example">
+                                <option selected>Select state</option>
+                                <option value="Exellent">Exellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Bad">Bad</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Category</label>
+                            <select id="Category" class="form-select" aria-label="Default select example">
+                                <option selected>Select category</option>
+                                <option value="Camera">Camera</option>
+                                <option value="Record">Record</option>
+                                <option value="Apple">Apple</option>
+                                <option value="Tripod">Tripod</option>
+                                <option value="Projectors">Projectors</option>
+                                <option value="Cables">Cables</option>
+                                <option value="Ligths">Ligths</option>
+                                <option value="Convertors">Convertors</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Instructions</label>
+                            <div class="input-group input-group-merge">
+                                <textarea id="Instruction" class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" onclick="SaveItem()" data-dismiss="modal" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Loan Item Modal-->
+    <div class="modal fade" id="LoanItemModal" tabindex="-1" role="dialog" aria-labelledby="LoanItemModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Loan item</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!--Modal content-->
+                    <div class="box">
+                        <div class="mb-3">
+                            <label class="form-label">Start loan date</label>
+                            <div class="input-group input-group-merge">
+                                <input type="date" class="form-control" id="StartLoanDate">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">End loan date</label>
+                            <div class="input-group input-group-merge">
+                                <input type="date" class="form-control" id="EndLoanDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" onclick="LoanItem()" data-dismiss="modal" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delay Policy Modal -->
+    <div class="modal fade" id="DelaysPolicyModal" tabindex="-1" role="dialog" aria-labelledby="addItemModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    DelaysPolicyModal
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Item Modal -->
+    <div class="modal fade" id="editItemModal" tabindex="-1" role="dialog" aria-labelledby="editItemModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Edit item</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!--Modal content-->
+                    <div class="box">
+                        <div class="mb-3">
+                            <label class="form-label">Item Code (Required)</label>
+                            <div class="input-group input-group-merge">
+                                <input type="text" class="form-control" id="ECode" aria-label="Mark Williams" aria-describedby="Code">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <div class="input-group input-group-merge">
+                                <input type="text" class="form-control" id="EName" aria-label="Mark Williams" aria-describedby="Code">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Max loan time (days)</label>
+                            <div class="input-group input-group-merge">
+                                <input type="number" class="form-control" id="EMaxLoanTime" aria-label="Mark Williams" aria-describedby="Code">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">State</label>
+                            <select id="EState" class="form-select" aria-label="Default select example">
+                                <option selected>Select state</option>
+                                <option value="Exellent">Exellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Bad">Bad</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Category</label>
+                            <select id="ECategory" class="form-select" aria-label="Default select example">
+                                <option selected>Select category</option>
+                                <option value="Camera">Camera</option>
+                                <option value="Record">Record</option>
+                                <option value="Apple">Apple</option>
+                                <option value="Tripod">Tripod</option>
+                                <option value="Projectors">Projectors</option>
+                                <option value="Cables">Cables</option>
+                                <option value="Ligths">Ligths</option>
+                                <option value="Convertors">Convertors</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Instructions</label>
+                            <div class="input-group input-group-merge">
+                                <textarea id="EInstruction" class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" onclick="SaveEditItem()" data-dismiss="modal" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--Notification-->
+        <div class="list-group notifications" id="box" style="width:17%">
+            <form action="ShowNotification" method="post">
+               
+            </form>
+        </div>
+    <!--Order Podcast Modal-->
+    <div class="modal fade" id="OrderPodcastModal" tabindex="-1" role="dialog" aria-labelledby="OrderPodcastlTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Podcast room</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!--Modal content-->
+                    <div class="box">
+                        <div class="mb-3">
+                            <label class="form-label">Pick date for podcast room:</label>
+                            <div class="input-group input-group-merge">
+                                <input type="date" class="form-control" id="StartPodcastDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" onclick="OrderRoom('podcast')" data-dismiss="modal" class="btn btn-primary">Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Order Studio Modal-->
+    <div class="modal fade" id="OrderStudioModal" tabindex="-1" role="dialog" aria-labelledby="OrderStudioTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Studio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!--Modal content-->
+                    <div class="box">
+                        <div class="mb-3">
+                            <label class="form-label">Pick date for the studio:</label>
+                            <div class="input-group input-group-merge">
+                                <input type="date" class="form-control" id="StartStudioDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" onclick="OrderRoom('studio')" data-dismiss="modal" class="btn btn-primary">Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Home">
+            <img src="~/media/warehouse.png" style="width: 30px; margin-left:10px" />
+            Warehouse
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#DelaysPolicyModal" href="#">Delays policy</a>
+                </li>
+                <li class="nav-item">
+                    <a id="podcastR" data-toggle="modal" data-target="#OrderPodcastModal" class="nav-link" href="">Order podcast room</a>
+                </li>
+                <li class="nav-item">
+                    <a id="studioR" data-toggle="modal" data-target="#OrderStudioModal" class="nav-link" href="">Order studio</a>
+                </li>
+                <li class="nav-item dropdown" id="btnAdminDisabled">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admin
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#addItemModal" href="">Add Item</a>
+                        <a data-toggle="modal" data-target="#editItemModal" class="dropdown-item" href="">Edit Item</a>
+                        <a class="dropdown-item btn" onclick="ShowReports()">Make Reports</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="">
+                        <img src="~/media/notification.png" style="width:30px; position:absolute; top:50%; transform:translateY(-50%); right:10px;"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--Main-->
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Visual communication warehouse</h1>
+                <p class="lead text-muted"><span id="ShowFirstName" style="font-weight:bold"></span>, welcome to our online archive of the Visual Communication Department, where creativity and communication converge.</p>
+                <p>
+                    <a href="/Users/UserProfile" class="btn btn-primary my-2"> <img src="~/media/user.png" style="width: 22px; margin-right:10px" />User Profile</a>
+                    <a href="/Users" class="btn btn-danger my-2"> <img src="~/media/logout.png" style="width: 20px; margin-right: 10px" />Logout</a>
+                </p>
+            </div>
+        </section>
+        <style>
+            .center {
+                margin: auto;
+                width: 70%;
+                padding: 10px;
+            }
+
+            .my-card {
+                position: absolute;
+                left: 85%;
+                top: -20px;
+                border-radius: 50%;
+            }
+        </style>
+
+        <div class="center" id="CategoryDiv">
+            <div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" id="SearchInput" placeholder="Search Item" aria-label="Search">
+                    <a class="btn btn-outline-success" onclick="ViewItems()">Search</a>
+                </form>
+            </div>
+            <p> </p>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/Camera.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Camera</h5>
+                                <a href="#" name="Camera" class="btn btn-primary" onclick="ViewItems('Camera')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/apple.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Apple')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/light-bulb.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Light</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Lights')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/rec.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Records</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Records')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-10"><p> </p><p> </p></div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/projector.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Projectors</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Projectors')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/reload.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Convertors</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Convertors')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/tripod.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Tripods</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Tripods')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="~/media/Categories/wiring.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Cables</h5>
+                                <a href="#" class="btn btn-primary" onclick="ViewItems('Cables')">View Items</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Category Table-->
+        <div id="ShowCategory" class="center">
+            <form action="ShowEquipment" method="post">
+                <table style="font-size:20px" class="sortable table table-hover" id="table" name="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Num.</th>
+                            <th scope="col">Code</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">State</th>
+                            <th scope="col">MaxLoanTime</th>
+                            <th scope="col">Instruction</th>
+                            <th scope="col">Loan</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbl_body">
+                    </tbody>
+                </table>
+            </form>
+            <a href="" class="btn btn-primary">Go back </a>
+        </div>
+
+        <!--Reports-->
+        <div id="ShowReportsDiv" class="center">
+            <div>
+                <div class="row w-100">
+                    <div class="col-md-4">
+                        <div class="card border-primary mx-sm-1 p-4">
+                            <div style="margin-left:45%">
+                                <img src="~/media/Stats/man.png" style="width:20%" />
+                            </div>
+                            <div class="text-primary text-center mt-3"><h4>Users</h4></div>
+                            <div class="text-primary text-center mt-2"><h1 id="UsersNumber"></h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-danger mx-sm-1 p-4">
+                            <div style="margin-left:45%">
+                                <img src="~/media/Stats/loan.png" style="width:20%" />
+                            </div>
+                            <div class="text-danger text-center mt-3"><h4>Loans</h4></div>
+                            <div class="text-danger text-center mt-2"><h1 id="LoansNumber"></h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-warning p-4">
+                            <div style="margin-left:45%">
+                                <img src="~/media/Stats/monopod.png" style="width:20%" />
+                            </div>
+                            <div class="text-warning text-center mt-3"><h4>Equipment</h4></div>
+                            <div class="text-warning text-center mt-2"><h1 id="EquipmentNumber"></h1></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:5%">
+                <div class="row w-100">
+                    <div class="col-md-4">
+                        <div class="card border-primary mx-sm-1 p-4">
+                            <div style="margin-left:45%">
+                                <img src="~/media/Stats/followers.png" style="width:20%" />
+                            </div>
+                            <div class="text-primary text-center mt-3"><h4>User With most loans</h4></div>
+                            <div class="text-primary  text-center mt-2"><p id="UserWithMostLoans" style="font-size:168%; font-weight:bold"></p></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-danger mx-sm-1 p-4">
+                            <div style="margin-left:45%">
+                                <img src="~/media/Stats/loan (1).png" style="width:20%" />
+                            </div>
+                            <div class="text-danger text-center mt-3"><h4>Current Loans</h4></div>
+                            <div class="text-danger text-center mt-2"><h1 id="CurrentLoansNumber"></h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-warning mx-sm-1 p-4">
+                            <div style="margin-left:45%">
+                                <img src="~/media/Stats/danger.png" style="width:20%" />
+                            </div>
+                            <div class="text-warning text-center mt-3"><h4>Defective Equipment</h4></div>
+                            <div class="text-warning text-center mt-2"><h1 id="BadEquipmentNumber"></h1></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a style="margin-top:3%" href="" class="btn btn-primary">Go back </a>
+
+        </div>
+    </main>
+
+
+    <style>
+        #floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+    <a id="floating-button" href="">
+        <img src="~/media/upload-button.png" />
+    </a>
+
+    <script>
+
+        document.getElementById('ShowReportsDiv').style.display = "none"
+        document.getElementById('ShowCategory').style.display = "none"
+        var Email = localStorage.getItem("Email");
+        localStorage.setItem('email', Email)
+
+        var FirstName = localStorage.getItem("FirstName");
+
+        document.getElementById("ShowFirstName").innerHTML = FirstName;
+        var Role = localStorage.getItem("Role");
+        if (Role == 'A')
+            document.getElementById('btnAdminDisabled').hidden = false
+
+        else
+            document.getElementById('btnAdminDisabled').hidden = true
+
+        if (Role == 'S') {
+            document.getElementById('podcastR').hidden = false
+            document.getElementById('studioR').hidden = false
+        }
+        else {
+            document.getElementById('podcastR').hidden = true
+            document.getElementById('studioR').hidden = true
+        }
+
+        var Code;
+        
+        //notification
+        $.ajax({
+            type: "POST",
+            url: "DeleteOldNotification",
+        })
+        
+        $.ajax({
+            type: "POST",
+            url: "LateNotification",
+            data: {
+                userEmail: Email
+            },
+            dataType: "json",
+            success: function (r) {
+            }
+        })
+
+        var down = false;
+        $('#bell').click(function (e) {
+
+            if (down) {
+
+                $('#box').css('height', '0px');
+                $('#box').css('opacity', '0');
+                down = false;
+            } else {
+
+                $('#box').css('height', 'auto');
+                $('#box').css('opacity', '1');
+                down = true;
+
+            }
+
+        });
+        ////////
+
+        function delay() {
+            $(document).ready(function () {
+                $("#myBtn").click(function () {
+                    $("#myModal").modal();
+                });
+            });
+        }
+
+
+        //Modal
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+
+        function SaveItem() {
+            var Code = document.getElementById("Code").value;
+            var Name = document.getElementById("Name").value;
+            var State = document.getElementById("State").value;
+            var Category = document.getElementById("Category").value;
+            var Instruction = document.getElementById("Instruction").value;
+            var MaxLoanTime = document.getElementById("MaxLoanTime").value;
+            if (Code == "" || Name == "" || State == "" || Category == "" || Instruction == "" || MaxLoanTime == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please  fill all fields',
+                })
+            }
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: "AddItem",
+                    data: {
+                        Code: Code,
+                        Name: Name,
+                        State: State,
+                        Category: Category,
+                        Instruction: Instruction,
+                        MaxLoanTime: parseInt(MaxLoanTime)
+                    },
+                    dataType: "json",
+                    success: function (r) {
+                        if (r.status === "false") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Item already exist',
+                            })
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Item added successfully',
+                            })
+                        }
+                    }
+                })
+            }
+        }
+
+        function SaveEditItem() {
+            var ECode = document.getElementById("ECode").value;
+            var EName = document.getElementById("EName").value;
+            var EState = document.getElementById("EState").value;
+            var ECategory = document.getElementById("ECategory").value;
+            var EInstruction = document.getElementById("EInstruction").value;
+            var EMaxLoanTime = document.getElementById("EMaxLoanTime").value;
+            if (ECode == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please  fill the code field',
+                })
+            }
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: "EditItem",
+                    data: {
+                        Code: ECode,
+                        Name: EName,
+                        State: EState,
+                        Category: ECategory,
+                        Instruction: EInstruction,
+                        MaxLoanTime: parseInt(EMaxLoanTime)
+                    },
+                    dataType: "json",
+                    success: function (r) {
+                        if (r.status === "false") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Item code not exist',
+                            })
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Item edited successfully',
+                            })
+                        }
+                    }
+                })
+            }
+        }
+
+        function ViewItems(SearchValue) {
+            if (SearchValue === undefined) {
+                SearchValue = document.getElementById("SearchInput").value;
+            }
+            $("#tbl_body").empty();
+            document.getElementById('CategoryDiv').style.display = "none"
+            document.getElementById('ShowCategory').style.display = "block"
+            $.ajax({
+                type: "POST",
+                url: "ShowEquipment",
+                data: {
+                    SearchInput: SearchValue
+                },
+                success: (res) => {
+                    var i = 1;
+                    res.equipmentlist.map(element => {
+                        const temp = ` <tr scope="row">
+                                                                <td>${i}</td>
+                                                                <td>${element.Code}</td>
+                                                                <td>${element.Name}</td>
+                                                                <td>${element.Category}</td>
+                                                                <td>${element.State}</td>
+                                                                <td>${element.MaxLoanTime}</td>
+                                                                <td>${element.Instruction}</td>
+                                                                <td>
+                                                                    <a id="book" data-toggle="modal" onclick="SaveItemCode('${element.Code}')" data-target="#LoanItemModal" class="btn btn-info" style="font-size:15px; color: white " >
+                                                                        Loan
+                                                                    </a>
+                                                                </td>
+                                                            </tr>`
+                        $("#tbl_body").append(temp);
+                        i++;
+                    })
+                }
+            })
+        }
+
+        const floatingButton = document.querySelector('#floating-button');
+
+        function ShowReports() {
+            document.getElementById('CategoryDiv').style.display = "none"
+            document.getElementById('ShowCategory').style.display = "none"
+            document.getElementById('ShowReportsDiv').style.display = "block"
+            $.ajax({
+                type: "POST",
+                url: "ShowReports",
+                dataType: "json",
+                success: function (r) {
+                    document.getElementById("UsersNumber").innerHTML = r.NumU;
+                    document.getElementById("LoansNumber").innerHTML = r.NumL;
+                    document.getElementById("CurrentLoansNumber").innerHTML = r.NumCL;
+                    document.getElementById("EquipmentNumber").innerHTML = r.NumE;
+                    document.getElementById("BadEquipmentNumber").innerHTML = r.NumBE;
+                    document.getElementById("UserWithMostLoans").innerHTML = r.Email;
+                }
+            })
+        }
+
+        function LoanItem() {
+            var StartDate = document.getElementById("StartLoanDate").value;
+            var ReturnDate = document.getElementById("EndLoanDate").value;
+            if (!StartDate || StartDate == "" || !ReturnDate || ReturnDate == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please  fill all fields',
+                })
+            }
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: "LoanItem",
+                    data: {
+                        Code: Code,
+                        Email: Email,
+                        StartDate: StartDate,
+                        ReturnDate: ReturnDate
+                    },
+                    dataType: "json",
+                    success: function (r) {
+                        if (r.status === "false") {
+                            if (r.reason === "taken") {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Item already order in those dates',
+                                })
+                            }
+                            else if (r.reason === "ToLong") {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'You can order this item for maximum ' + r.maxloan + ' days only',
+                                })
+                            }
+                            else {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Can not set to pervious date',
+                                })
+                            }
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Loan complete successfully',
+                            })
+                        }
+                    }
+                })
+            }
+        }
+
+        function OrderRoom(room) {
+            var StartPodcastDate = document.getElementById("StartPodcastDate").value;
+            var StartStudioDate = document.getElementById("StartStudioDate").value;
+            var Date="";
+            if (room == "podcast") {
+                if (!StartPodcastDate || StartPodcastDate == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Please pick date',
+                    })
+                    return;
+                }
+                Date = StartPodcastDate;
+            }
+            else if (room == "studio") {
+                if (!StartStudioDate || StartStudioDate == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Please pick date',
+                    })
+                    return;
+                }
+                Date = StartStudioDate;
+
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "OrderRoom",
+                data: {
+                    Email: Email,
+                    roomDate: Date,
+                    ItemName: room
+
+                },
+                dataType: "json",
+                success: function (r) {
+                    if (r.status === "false") {
+                        if (r.reason === "previusDate") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'This date already pass...',
+                            })
+                        }
+                        else if (r.reason === "occupied") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'This room is already occupied in this date',
+                            })
+                        }
+                    }
+                    else {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Room ordered successfully',
+                        })
+                    }
+                }
+            })
+        }
+
+
+        function SaveItemCode(ItemCode) {
+            Code = ItemCode;
+        }
+         function ShowNotification() {
+            $("#box").empty();
+            $.ajax({
+                type: "POST",
+                url: "ShowNotification",
+                data: {
+                    userEmail: Email
+                },
+                success: (res) => {
+                    res.NotificationList.map(element => {
+                        var Startdate = moment(element.Date).toDate();
+                        var date = Startdate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+                        const temp = `  <a class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">${element.Title}</h5>
+                                                <small>${date}</small>
+                                            </div>
+                                            <p class="mb-1">${element.Body}</p>
+                                        </a>`
+                        $("#box").append(temp);
+                    })
+                }
+            })
+        }
+        floatingButton.addEventListener('click', function () {
+            window.scrollTo(0, 500);
+        });
+
+
+
+
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <link rel="stylesheet" href="~/css/Registration.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body className='snippet-body'>
+    <div class="container">
+        <div class="frame">
+            <div class="nav">
+                <ul class="links">
+                    <li class="signin-active"><a class="btn_">Sign in</a></li>
+                    <li class="signup-inactive"><a class="btn_">Sign up </a></li>
+                </ul>
+            </div>
+            <div ng-app ng-init="checked = false">
+                <form class="form-signin" action="UserSignIn" method="post" name="form">
+                    <label for="Email">Email</label>
+                    <input class="form-styling" type="text" name="Email" placeholder="" id="SignInEmail" />
+                    <label for="password">Password</label>
+                    <input class="form-styling" type="password" name="password" placeholder="" id="SignInPassword" />
+                    <input type="checkbox" id="checkbox" />
+                    <button type="button" class="btn-signup" onclick="SignIn()" value="SignIn">Sign In</button>
+                </form>
+              <form class="form-signup" action="UserRegister" method="post" name="form">
+                    <label for="first name">First name</label>
+                    <input class="form-styling" type="text" name="FirstName" placeholder="" id="FirstName" required />
+                    <label for="last name">Last name</label>
+                    <input class="form-styling" type="text" name="LastName" placeholder="" id="LastName" required />
+                    <label for="email">Email</label>
+                    <input class="form-styling" type="text" name="Email" placeholder="" id="email" required />
+                    <label for="password">Password</label>
+                    <input class="form-styling" type="password" name="Password" placeholder="" id="password" required />
+                    <fieldset>
+                        <div class="some-class">
+                            <input type="radio" id="Student" name="drone" value="Student"  checked/>
+                            <label1 for="y">Student</label1>
+                            <input type="radio" id="Lecturer" name="drone" value="Lecturer" />
+                            <label1 for="z">Lecturer</label1>
+                        </div>
+                    </fieldset>
+                    <button type="button" ng-click="checked = !checked" class="btn-signup" onclick="SignUp()" value="SignUp">Sign Up</button>
+                </form >
+            </div>
+        </div>
+          <a id="refresh" value="Refresh" onClick="history.go()">
+            <svg class="refreshicon" version="1.1" id="Capa_1" x="0px" y="0px"
+                 width="25px" height="25px" viewBox="0 0 322.447 322.447" style="enable-background:new 0 0 322.447 322.447;"
+                 xml:space="preserve">
+            <path d="M321.832,230.327c-2.133-6.565-9.184-10.154-15.75-8.025l-16.254,5.281C299.785,206.991,305,184.347,305,161.224
+                c0-84.089-68.41-152.5-152.5-152.5C68.411,8.724,0,77.135,0,161.224s68.411,152.5,152.5,152.5c6.903,0,12.5-5.597,12.5-12.5
+                c0-6.902-5.597-12.5-12.5-12.5c-70.304,0-127.5-57.195-127.5-127.5c0-70.304,57.196-127.5,127.5-127.5
+                c70.305,0,127.5,57.196,127.5,127.5c0,19.372-4.371,38.337-12.723,55.568l-5.553-17.096c-2.133-6.564-9.186-10.156-15.75-8.025
+                c-6.566,2.134-10.16,9.186-8.027,15.751l14.74,45.368c1.715,5.283,6.615,8.642,11.885,8.642c1.279,0,2.582-0.198,3.865-0.614
+                l45.369-14.738C320.371,243.946,323.965,236.895,321.832,230.327z" />
+            </svg>
+        </a>
+    </div>
+   <script type='text/javascript'>
+       
+        var UserExists = false;
+        $(function () {
+            $(".btn_").click(function () {
+                $(".form-signin").toggleClass("form-signin-left");
+                $(".form-signup").toggleClass("form-signup-left");
+                $(".frame").toggleClass("frame-long");
+                $(".signup-inactive").toggleClass("signup-active");
+                $(".signin-active").toggleClass("signin-inactive");
+                $(".forgot").toggleClass("forgot-left");
+                $(this).removeClass("idle").addClass("active");
+            });
+        });
+
+        $(function () {
+            $(".btn-signup").click(function () {
+                $(".nav").toggleClass("nav-up");
+                $(".form-signup-left").toggleClass("form-signup-down");
+                $(".success").toggleClass("success-left");
+                $(".frame").toggleClass("frame-short");
+            });
+        });
+
+        $(function () {
+            $(".btn-signin").click(function () {
+                $(".btn-animate").toggleClass("btn-animate-grow");
+                $(".welcome").toggleClass("welcome-left");
+                $(".cover-photo").toggleClass("cover-photo-down");
+                $(".frame").toggleClass("frame-short");
+                $(".profile-photo").toggleClass("profile-photo-down");
+                $(".btn-goback").toggleClass("btn-goback-up");
+                $(".forgot").toggleClass("forgot-fade");
+            });
+        });
+             function SignUp() {         
+            var Email = document.getElementById("email").value;
+            var FirstName = document.getElementById("FirstName").value;
+            var LastName = document.getElementById("LastName").value;
+            var Password = document.getElementById("password").value;
+            var Role = document.getElementById("Student").checked;
+            //check if user fill all fields
+            if (Email == "" || FirstName == "" || LastName == "" || Password == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please fill all fields!',
+                }) 
+                setTimeout(function () {
+                    history.go();
+                }, 2000)
+            }
+            else {
+                //check if student or lecturer
+                if (Role == true)
+                    Role = "S"; //student
+                else
+                    Role = "L"; //lecturer
+                if (Email.includes("ac.sce.ac.il"))
+                {
+                    //send to register in home controller
+                        $.ajax({
+                            type: "POST",
+                            url: "Users/UserRegister",
+                            data: {
+                                Email: Email,
+                                FirstName: FirstName,
+                                LastName: LastName,
+                                Password: Password,
+                                Role: Role
+                            },
+                            dataType: "json",
+                            success: function (r) {
+                                if (r.status === "false") {
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'User already exists!',
+                                    })
+                                    setTimeout(function () {
+                                        history.go();
+                                    }, 2000)
+                                }
+                                   
+                                
+                                else
+                                {
+                                    Swal.fire({
+                                        icon: 'success',
+                                        title: 'Sign Up successfuly!',
+                                    })
+                                    setTimeout(function () {
+                                        localStorage.setItem("FirstName", FirstName);
+                                        localStorage.setItem("Role", Role);
+                                        localStorage.setItem("Email", Email);
+                                        window.location.href = "Users/Home";
+                                    }, 2000)
+                                }
+                            }
+                        });
+                }
+                else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Must sign up with your collage mail!',
+                    })
+                    setTimeout(function () {
+                        history.go();
+                    }, 2000)
+                }
+            }
+        } 
+    
+       function SignIn() {
+            var Email = document.getElementById("SignInEmail").value;
+            var Password = document.getElementById("SignInPassword").value;
+            //check if user fill all fields
+            if (Email == "" || Password == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Please fill all fields!',
+                })
+            }
+            else {
+                //send to SignIn in Home controller
+                $.ajax({
+                    type: "POST",
+                    url: "Users/UserSignIn",
+                    data: {
+                        Email: Email,
+                        Password: Password,
+                    },
+                    dataType: "json",
+                    success: function (r)
+                    {
+                        if (r.status === "false") {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'User not exists!',
+                            })
+                        }
+                        else
+                        {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Welcome back!',
+                            })
+                            setTimeout(function () {
+                                localStorage.setItem("FirstName", r.name);
+                                localStorage.setItem("Role", r.role);
+                                localStorage.setItem("Email", Email);
+                                window.location.href = "Users/Home";
+
+                            }, 2000)
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>
